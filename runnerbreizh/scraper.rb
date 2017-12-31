@@ -1,7 +1,7 @@
 require 'json'
 require 'open-uri'
 require 'nokogiri'
-require "csv"
+require 'csv'
 
 SITE_URL = "www.runnerbreizh.fr"
 data = File.read('runners.json')

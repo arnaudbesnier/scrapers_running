@@ -10,11 +10,28 @@ git clone https://github.com/arnaudbesnier/scrapers_running.git
 
 It will create the `scrapers_running` repository on your desktop.
 
+## Setup
+
+Install Bundler to manage your dependencies:
+```bash
+gem install bundler
+```
+
+Go to the `scrapers_running` directory:
+```bash
+cd scrapers_running
+```
+
+Install the project dependencies (aka Gems):
+```bash
+bundle install
+```
+
 ## Execute it!
 
-Go to the runnerbreizh directory:
+Go to the `runnerbreizh` directory:
 ```bash
-cd scrapers_running/runnerbreizh
+cd runnerbreizh
 ```
 
 Scrape the website:
